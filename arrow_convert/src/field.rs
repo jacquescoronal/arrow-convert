@@ -9,7 +9,7 @@ use arrow::{
 use chrono::{NaiveDate, NaiveDateTime};
 
 /// The default field name used when a specific name is not provided.
-pub const DEFAULT_FIELD_NAME: &str = "_item";
+pub const DEFAULT_FIELD_NAME: &str = "item";
 
 /// Trait implemented by all types that can be used as an Arrow field.
 ///
